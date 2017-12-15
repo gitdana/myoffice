@@ -1,0 +1,143 @@
+/*
+	 CSS-Tricks Example
+	 by Chris Coyier
+	 http://css-tricks.com
+*/
+
+body {
+  background: #393939;
+  color: white;
+  font: 14px Helvetica, sans-serif;
+}
+
+#page-wrap {
+  width: 500px;
+  margin: 100px auto;
+}
+
+h1 {
+  font: 26px Georgia, Serif;
+  margin: 0 0 10px 0;
+}
+form {
+  margin: 50px 0 0 0;
+}
+/*
+label {
+  font: bold 20px Helvetica, sans-serif;
+  display: block;
+  float: left;
+  text-align: right;
+  padding: 5px 10px 0 0;
+  width: 140px;
+}
+*/
+/*
+input[type=text] {
+  float: left;
+  width: 40px;
+  font: bold 20px Helvetica, sans-serif;
+  padding: 3px 0 0 0;
+  text-align: center;
+}
+*/
+
+.search-wrap .form-control {
+  
+    background-color: #FFF;
+    font-size: 13px;
+    color: #666;
+    border-radius: 7px;
+    height: 45px;
+    border: none;
+}
+
+.search-btn.btn-danger {
+    width: 100% !important;
+    margin-top: 20px !important;
+    background-color: #03A0E3;
+    padding: 10px;
+    border: none;
+}
+
+.search-wrap .form-control {
+    background-color: transparent;
+    background-color: #FFF;
+    font-size: 13px;
+    color: #666;
+    border-radius: 7px;
+    height: 45px;
+    border: none;
+}
+
+.search-wrap .form-control.promo-code {
+    background-color: #252525;
+    color: #fff;
+    padding-right: 0px !important;
+}
+
+.details h2 {
+    font-size: 57px;
+}
+
+.details h4 {
+    font-size: 27px;
+}
+
+.details h1 {
+    font-size: 67px;
+}
+
+.carousel-inner .item img {
+    max-width: 100%;
+    width: 100%;
+    height: 100vh!important;
+   
+}
+
+form div {
+  overflow: hidden;
+  margin: 0 0 5px 0;
+}
+
+#french-hens{
+    position: relative;
+}
+
+.button {
+  margin: 0 0 0 5px;
+  text-indent: -9999px;
+  cursor: pointer;
+  width: 35px;
+  height: 29px;
+  float: left;
+  text-align: center;
+  background: url(../images/buttons.png) no-repeat;
+position: absolute;
+    top: 8px;
+    right: 21px;
+}
+.dec {
+  background-position: 0 -29px;
+}
+
+.buttons {
+  padding: 20px 0 0 140px;
+}
+
+.details {
+
+    position: absolute;
+    right: 107px;
+    top: 150px;
+    float: right;
+
+}
+
+
+.search-btn.btn-danger:hover {
+    width: 100% !important;
+    margin-top: 20px !important;
+    background-color: #03A0E3;
+    border: none;
+}
